@@ -77,7 +77,7 @@
                     Semua karya yang kami buat 100% buatan tangan dan menggunakan
                     manik-manik berkualitas
                 </p>
-                <a href="#contact" class="btn">Pelajari lebih lanjut</a>
+                <a href="tentang.html" class="btn">Pelajari lebih lanjut</a>
             </div>
         </div>
     </section>
@@ -480,23 +480,7 @@
             });
         });
     </script>
-    <script>
-        // Cek apakah user sudah login
-        if (!localStorage.getItem("isLoggedIn")) {
-            alert("Silakan login terlebih dahulu.");
-            window.location.href = "login.html";
-        }
-    </script>
-
-    <button onclick="logout()">Logout</button>
-    <script>
-        function logout() {
-            localStorage.removeItem("isLoggedIn");
-            alert("Anda telah logout");
-            window.location.href = "login.html";
-        }
-    </script>
-
+    
     <script src="js/script.js"></script>
 </body>
 
